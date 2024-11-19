@@ -1,4 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Outfit:wght@600&display=swap");
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #ffeced;
+}
+
+#logo {
+  max-width: 8rem;
+}
+
+nav {
+  font-family: Geist Mono;
+  color: #82000B;
+  font-size: 1.2rem;
+  position: fixed;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.resume, .carte, footer, .shipping {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.resume {
+  margin: 4rem auto;
+  font-size: 1.5rem;
+  text-align: justify;
+  text-justify: inter-cluster;
 }/*# sourceMappingURL=style.css.map */
