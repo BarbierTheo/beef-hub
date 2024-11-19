@@ -7,6 +7,9 @@
   <title>Document</title>
   <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
   <link rel="stylesheet" href="./assets/scss/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -44,14 +47,12 @@
   </nav>
 
   <main>
-
     <!-- CARROUSSEL -->
-
     <div id="carouselBurgers" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselBurgers" data-bs-slide-to="0" class="active" aria-current="true"
           aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#ccarouselBurgers" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselBurgers" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselBurgers" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
@@ -87,43 +88,194 @@
       </button>
     </div>
 
+    <!-- RESUME -->
+    <div class="resume m-3">
+      <p>
+        <span class="fw-bold">
+          Bienvenue chez The Spot,
+        </span>votre restaurant de burgers préféré au Havre, où convivialité et qualité se rencontrent depuis 1998 !
+        Depuis plus de deux décennies, nous régalons petits et grands avec des recettes authentiques et savoureuses dans
+        une ambiance chaleureuse et familiale. Que vous soyez en quête d'un burger classique ou d'une création
+        originale, chaque bouchée est une promesse de plaisir et de fraîcheur. Nous mettons un point d'honneur à servir
+        des produits de qualité dans un cadre détendu, parfait pour partager un moment agréable entre amis ou en
+        famille. Venez découvrir pourquoi The Spot est le lieu où les gourmands se retrouvent !
+      </p>
+    </div>
 
-<!-- RESUME -->
+    <div class="carte m-auto">
+      <!-- CLASSIC'S -->
+      <div class="classic justify-content-around row">
+        <p class="text-center m-3">CLASSIC'S</p>
 
-<div class="resume">
-  <p>
-    <span>
-      titre
-    </span>
-    histoire du resto
-  </p>
+        <div class="card" style="width: 25%;">
+          <img src="/assets/img/removebg/cheesenbacon.png" class="card-img-top"
+            alt="cheese-n-bacon">
+          <div class="card-body">
+            <h5 class="card-title text-center">CHEESE 'N BACON</h5>
+            <p class="card-text text-center">La spécialité de la maison</p>
 
-</div>
-
-
-
-
-
-
+            <div class="text-center">
+              <a href="#" class="card-link m-4"><i class="fa-solid fa-circle-info"></i></a>
+              <a href="#" class="price m-4">12€</a>
+            </div>
+          </div>
+        </div>
 
 
+        <div class="card" style="width: 25%;">
+          <img src="/assets/img/removebg/doublecheese.png" class="card-img-top"
+            alt="double_cheese">
+          <div class="card-body">
+            <h5 class="card-title text-center">DOUBLE CHEESE</h5>
+            <p class="card-text text-center">Le plus classique des Classic's</p>
+
+            <div class="text-center">
+              <a href="#" class="card-link m-4"><i class="fa-solid fa-circle-info"></i></a>
+              <a href="#" class="price m-4">10€</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 25%;">
+          <img src="/assets/img/removebg/chickensupreme.png" class="card-img-top"
+            alt="chicken_supreme">
+          <div class="card-body">
+            <h5 class="card-title text-center">CHICKEN SUPREME</h5>
+            <p class="card-text text-center">Pour ceux qui n'aiment pas le boeuf</p>
+
+            <div class="text-center">
+              <a href="#" class="card-link m-4"><i class="fa-solid fa-circle-info"></i></a>
+              <a href="#" class="price m-4">12€</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MOMENT'S -->
+      <div class="classic justify-content-around row m-3">
+        <p class="text-center">MOMENT'S</p>
+
+        <div class="card" style="width: 25%;">
+          <img src="/assets/img/removebg/doublecrunch.png" class="card-img-top"
+            alt="double_crunch">
+          <div class="card-body">
+            <h5 class="card-title text-center">DOUBLE CRUNCH</h5>
+            <p class="card-text text-center">Pour un maximum de texture</p>
+
+            <div class="text-center">
+              <a href="#" class="card-link m-4"><i class="fa-solid fa-circle-info"></i></a>
+              <a href="#" class="price m-4">13€</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="width: 25%;">
+          <img src="/assets/img/removebg/lordoftherings.png" class="card-img-top"
+            alt="lord_of_the_rings">
+          <div class="card-body">
+            <h5 class="card-title text-center">LE BURGER DES ANNEAUX</h5>
+            <p class="card-text text-center">Un burger pour les gouverner tous</p>
+
+            <div class="text-center">
+              <a href="#" class="card-link m-4"><i class="fa-solid fa-circle-info"></i></a>
+              <a href="#" class="price m-4">14€</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="width: 25%;">
+          <img src="/assets/img/removebg/triple monstre.png" class="card-img-top"
+            alt="triple_monstre">
+          <div class="card-body">
+            <h5 class="card-title text-center">TRIPLE MONSTRE</h5>
+            <p class="card-text text-center">Triple ration de viande pour les gourmands</p>
+
+            <div class="text-center">
+              <a href="#" class="card-link m-4"><i class="fa-solid fa-circle-info"></i></a>
+              <a href="#" class="price m-4">18€</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SPECIAL'S -->
+      <div class="classic justify-content-around row m-3">
+        <p class="text-center">SPECIAL'S</p>
+
+        <div class="card" style="width: 25%;">
+          <img src="/assets/img/removebg/milkshake.png" class="card-img-top"
+            alt="milkshake">
+          <div class="card-body">
+            <h5 class="card-title text-center">MILKSHAKE</h5>
+            <p class="card-text text-center">Triple ration de viande pour les gourmands</p>
+
+            <div class="text-center">
+              <a href="#" class="card-link m-4"><i class="fa-solid fa-circle-info"></i></a>
+              <a href="#" class="price m-4">8€</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="width: 25%;">
+          <img src="/assets/img/removebg/brownie.png" class="card-img-top"
+            alt="brownie">
+          <div class="card-body">
+            <h5 class="card-title text-center">BROWNIE</h5>
+            <p class="card-text text-center">Triple ration de viande pour les gourmands</p>
+
+            <div class="text-center">
+              <a href="#" class="card-link m-4"><i class="fa-solid fa-circle-info"></i></a>
+              <a href="#" class="price m-4">4€</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="width: 25%;">
+          <img src="/assets/img/removebg/donuts.png" class="card-img-top"
+            alt="donut">
+          <div class="card-body">
+            <h5 class="card-title text-center">DONUT</h5>
+            <p class="card-text text-center">Triple ration de viande pour les gourmands</p>
+
+            <div class="text-center">
+              <a href="#" class="card-link m-4"><i class="fa-solid fa-circle-info"></i></a>
+              <a href="#" class="price m-4">3€</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- LIVRAISON / A EMPORTER -->
-
-<div class="shipping row justify-content-around m-3">
-  <button class="btn btn-primary col-5">Livraison</button>
-  <button class="btn btn-primary col-5">A emporter</button>
-</div>
-
-
-
-
-
-
-
-
-
+    <div class="shipping row justify-content-around m-5">
+      <button class="btn btn-primary col-5">Livraison</button>
+      <button class="btn btn-primary col-5">A emporter</button>
+    </div>
   </main>
 
+  <footer>
+    <div class="address row text-center">
+    <div class="left col">
+      <p>
+        <span>Le Spot vous acceuille</span><br>
+        3 rue Maximilien de Robespierre, 76610 Le Havre
+      </p>
+      <p>
+        Du mardi au dimanche : 11h-14h et 18h-22h
+      </p>
+      <a href="tel:(+33972723936)">09 72 72 39 36</a>
+
+    </div>
+
+    <div class="right col">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590.453926629673!2d0.16688697674710917!3d49.51370545436687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02fe40985f1ff%3A0x89e1a03a20457b7b!2sAfpa%20-%20Centre%20du%20Havre!5e0!3m2!1sfr!2sfr!4v1732029375681!5m2!1sfr!2sfr" width="70%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <div class="legal text-center">
+    <a href="#" class="m-3">Mentions légales</a>
+    <a href="#" class="m-3">Politique de confidentialité</a>
+    <a href="#" class="m-3">Utilisation des cookies</a>
+  </div>
+  </footer>
 
   <script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
 </body>
