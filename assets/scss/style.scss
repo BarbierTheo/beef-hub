@@ -22,21 +22,102 @@ nav{
     color: #82000B;
     font-size: 1.2rem;
     position: fixed;
-    a:hover {
-        text-decoration: underline;
+    font-weight: 900;
+    background-color: #ffeced;
+    
 
+    .hoverlink:hover {
+        text-decoration: underline;
+        background-color: #82000B;
+        color: #ffeced;
+        transition: ease 0.5s;
+        border-radius: 0.5rem;
     }
 }
 
+.hoverlink{
+    padding: 0 1rem;
+}
 
-.resume, .carte, footer, .shipping{
+.classics, .moments, .specials{
+    font-family: Geist Mono;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #82000B;
+}
+
+.resume, .carte, .shipping{
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .resume{
-    margin: 4rem auto;
-    font-size: 1.5rem;
+    margin: 1rem auto;
+    padding: 0 1rem;
+    font-size: 1.2rem;
     text-align: justify;
-    text-justify: inter-cluster;
+}
+
+footer{
+    background-color: #82000B;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    align-items: stretch;
+
+    .left{
+        text-align: right;
+        color: #ffeced;
+        .linktel{
+            text-decoration: none;
+            color: #ffeced;
+            font-weight: 900;
+            font-size: 1.1rem;
+        }
+    }
+
+
+    .legal{
+        margin-top: 4rem;
+        a{
+        font-weight: 300;
+        color: #ffeced;
+        margin: 0 2rem;
+        }
+    }
+}
+
+.card{
+    background-color: #82000B;
+    color: #ffeced;
+}
+
+
+.rowbuy{
+    display: flex;
+    justify-content: space-between;
+}
+.cartbtn{
+    background-color: #ffeced;
+    color: #82000B;
+    font-weight: 700;
+}
+
+.btnred{
+    background-color: #82000B;
+    color: white;
+}
+
+.card-title{
+    font-family: Geist Mono;
+    font-weight: 700;
+    margin: 0;
+}
+.card:hover{
+    img{
+        
+        transition: ease 1s;
+        opacity: 0.9;
+        transform:scale(1.15);
+    }
 }
