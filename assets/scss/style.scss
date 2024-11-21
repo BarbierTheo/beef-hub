@@ -90,11 +90,6 @@ nav {
     margin: 0 auto;
 }
 
-.rowtocol {
-
-    max-width: 100%;
-    margin: 0 auto;
-}
 
 .resume {
     margin: 1rem auto;
@@ -108,26 +103,41 @@ nav {
     font-style: italic;
 }
 
+.available{
+    font-family: Geist Mono;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+}
+
 .shipping {
-    margin: 3rem auto;
+    margin: 0 auto;
 
     button {
-        background-color: #82000B;
+        background-color: white;
         border: none;
         font-weight: 500;
         font-size: 1.3rem;
     }
 
     button:hover {
-        background-color: #ffeced;
+        background-color: #edffec;
         color: #82000B;
         transition: ease 0.6s;
     }
 
     button:active {
-        background-color: #82000B !important;
+        background-color: #ffeced !important;
     }
 }
+
+
+.uber,
+.deliveroo {
+    max-width: 15rem;
+    padding: 1rem;
+}
+
 
 .gotocart {
     background-color: #82000B;
@@ -140,41 +150,10 @@ nav {
 
 }
 
-
-
-// ###########################################################################
-// ################              FOOTER                  #####################
-// ###########################################################################
-
-footer {
-    background-color: #82000B;
-    padding: 2rem;
-
-    .left {
-        text-align: right;
-        color: #ffeced;
-
-        .linktel {
-            text-decoration: none;
-            color: #ffeced;
-            font-weight: 900;
-            font-size: 1.1rem;
-        }
-    }
-
-
-    .legal {
-        margin-top: 5rem;
-        display: flex;
-        justify-content: space-evenly;
-
-        a {
-            font-weight: 300;
-            color: #ffeced;
-            margin: 0 2rem;
-        }
-    }
+.carte {
+    margin-bottom: 3rem;
 }
+
 
 .card {
     background-color: #82000B;
@@ -213,10 +192,65 @@ footer {
     }
 }
 
-.uber,
-.deliveroo {
-    max-width: 15rem;
-    padding: 1rem;
+
+
+// ###########################################################################
+// ################              PARTNERS                  ###################
+// ###########################################################################
+
+.partners {
+    p {
+        font-style: oblique;
+        text-align: center;
+    }
+
+    margin-bottom: 2rem;
+}
+
+.logopartners {
+
+    img {
+        max-width: 7rem;
+    }
+}
+
+
+
+
+
+
+// ###########################################################################
+// ################              FOOTER                  #####################
+// ###########################################################################
+
+footer {
+    background-color: #82000B;
+    padding: 2rem;
+
+    .left {
+        text-align: right;
+        color: #ffeced;
+
+        .linktel {
+            text-decoration: none;
+            color: #ffeced;
+            font-weight: 900;
+            font-size: 1.1rem;
+        }
+    }
+
+
+    .legal {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-evenly;
+
+        a {
+            font-weight: 300;
+            color: #ffeced;
+            margin: 0 2rem;
+        }
+    }
 }
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -100,6 +100,29 @@
         </p>
       </div>
 
+
+      <!-- ############################################################################## -->
+      <!-- ################                   SHIPPING              ##################### -->
+      <!-- ############################################################################## -->
+
+
+      <div class="shipping row justify-content-around gap-2">
+        <p class="available">
+          Disponible en livraison au Havre et ses alentours
+        </p>
+
+        <a href="https://www.deliveroo.com" target="_blank" class="col-lg-5 col-10">
+          <button class="btn btn-primary w-100">
+              <img src="./assets/img/delivery/deliveroo.png" alt="deliveroo" class="deliveroo">
+          </button>
+      </a>
+      <a href="https://www.ubereats.com" target="_blank" class="col-lg-5 col-10">
+          <button class="btn btn-primary w-100">
+              <img src="./assets/img/delivery/ubereats.png" alt="uber-eats" class="uber">
+          </button>
+      </a>
+      </div>
+
       <div class="carte">
         <div id="scrollspyHeading1">
 
@@ -465,17 +488,26 @@
       </div>
     </div>
 
-
     <!-- ############################################################################## -->
-    <!-- ################                   SHIPPING              ##################### -->
+    <!-- ################                    PARTNERS               ################### -->
     <!-- ############################################################################## -->
 
 
-    <div class="shipping row justify-content-around gap-2">
-      <button class="btn btn-primary col-lg-5 col-10"><img src="./assets/img/delivery/deliveroo-logo.svg"
-          alt="deliveroo" class="deliveroo"></button>
-      <button class="btn btn-primary col-lg-5 col-10"><img src="./assets/img/delivery/uber-eats.svg" alt="uber-eats"
-          class="uber"></button>
+    <div class="partners">
+      <p>
+        Et n'hésitez pas à aller checker nos partenaires aussi ;)
+      </p>
+      <div class="div text-center">
+        <a href="https://fadli-said.github.io./Pizza/index.html" class="logopartners" target="_blank">
+          <img src="./assets/img/partners/lapizzeria.png" alt="la-pizzeria">
+        </a>
+        <a href="https://ichdev-art.github.io/timereal.github.io/" class="logopartners" target="_blank">
+          <img src="./assets/img/partners/timereal.png" alt="timereal">
+        </a>
+        <a href="https://ridah00.github.io/mg_kebab/" class="logopartners" target="_blank">
+          <img src="./assets/img/partners/mgkebab.png" alt="timereal">
+        </a>
+      </div>
     </div>
   </main>
 
@@ -513,7 +545,7 @@
       <a href="#">Utilisation des cookies</a>
     </div>
   </footer>
-   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
