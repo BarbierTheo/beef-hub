@@ -41,11 +41,6 @@ nav .navbar-toggler {
 nav .hoverlink {
   padding: 0 1rem;
 }
-@media (max-width: 900px) {
-  nav ul.nav {
-    text-align: center;
-  }
-}
 
 .classics,
 .moments,
@@ -168,19 +163,18 @@ footer .legal a {
   transform: scale(1.15);
 }
 
+.uber, .deliveroo {
+  max-width: 15rem;
+  padding: 1rem;
+}
+
 @media (max-width: 700px) {
-  .rowtocol {
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    max-width: 100%;
-    margin: 0 auto;
-  }
   .resume {
     margin-top: 5rem;
   }
   .card {
     width: 80% !important;
+    margin-bottom: 1rem;
   }
   .legal {
     flex-direction: column;
