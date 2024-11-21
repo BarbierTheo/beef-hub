@@ -103,7 +103,7 @@ nav {
     font-style: italic;
 }
 
-.available{
+.available {
     font-family: Geist Mono;
     font-weight: 700;
     margin-left: 0.5rem;
@@ -263,32 +263,13 @@ footer {
         margin-top: 5rem;
     }
 
-    .card {
-        width: 80% !important;
-        margin-bottom: 1rem;
-    }
-
     .legal {
         flex-direction: column;
     }
 
+
     .carousel {
         display: none;
-    }
-
-    .address {
-        flex-direction: column;
-
-        .left {
-            text-align: center;
-            margin-bottom: 1rem;
-        }
-
-        .right {
-            text-align: center;
-            width: 100%;
-        }
-
     }
 
 }

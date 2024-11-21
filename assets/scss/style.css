@@ -191,25 +191,10 @@ footer .legal a {
   .resume {
     margin-top: 5rem;
   }
-  .card {
-    width: 80% !important;
-    margin-bottom: 1rem;
-  }
   .legal {
     flex-direction: column;
   }
   .carousel {
     display: none;
-  }
-  .address {
-    flex-direction: column;
-  }
-  .address .left {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  .address .right {
-    text-align: center;
-    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
