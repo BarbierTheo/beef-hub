@@ -169,6 +169,7 @@ footer {
 footer .left {
   text-align: right;
   color: #ffeced;
+  margin-bottom: 1rem;
 }
 footer .left .linktel {
   text-decoration: none;
@@ -178,7 +179,6 @@ footer .left .linktel {
 }
 footer .legal {
   margin-top: 5rem;
-  display: flex;
   justify-content: space-evenly;
 }
 footer .legal a {
@@ -190,9 +190,6 @@ footer .legal a {
 @media (max-width: 700px) {
   .resume {
     margin-top: 5rem;
-  }
-  .legal {
-    flex-direction: column;
   }
   .carousel {
     display: none;
