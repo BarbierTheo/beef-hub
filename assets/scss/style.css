@@ -144,10 +144,14 @@ nav .hoverlink {
   margin: 0;
 }
 
+.card:hover {
+  transition: ease-in 0.5s;
+  transform: scale(1.05);
+  box-shadow: 4px 5px 0px 1px rgba(71, 0, 3, 0.21);
+}
 .card:hover img {
-  transition: ease 1s;
-  opacity: 0.9;
-  transform: scale(1.15);
+  transition: ease 1.5s;
+  transform: scale(1.2);
 }
 
 .partners {

@@ -172,11 +172,16 @@ nav {
 }
 
 .card:hover {
+
+    transition: ease-in 0.5s;
+    transform: scale(1.05);
+    -webkit-box-shadow: 4px 5px 0px 1px rgba(71,0,3,0.21); 
+    box-shadow: 4px 5px 0px 1px rgba(71,0,3,0.21);
+
     img {
 
-        transition: ease 1s;
-        opacity: 0.9;
-        transform: scale(1.15);
+        transition: ease 1.5s;
+        transform: scale(1.2);
     }
 }
 
@@ -185,7 +190,6 @@ nav {
         font-style: oblique;
         text-align: center;
     }
-
     margin-bottom: 2rem;
 }
 
